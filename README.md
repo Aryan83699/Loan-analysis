@@ -1,5 +1,7 @@
 # Financial Loan Data Analysis 
 
+![Loan-analysis](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzUMbvbNYEOAUBiWP2rlbCF1u1xsgRo4unA&s)
+
 This dataset contains information about loan applications, borrower characteristics, and loan repayment performance. <br> It includes details such as employment information, credit history, loan amounts, repayment schedules, and loan status. <br> This data can be used for tasks like credit risk analysis, predicting loan default, and understanding borrower behavior.
 
 <h4> key Columns </h4>
@@ -28,6 +30,8 @@ This dataset contains information about loan applications, borrower characterist
 23. total_acc – Total number of accounts held by the customer.
 24 total_payment – Total amount received from the customer.
 
+<br>
+<br>
 <h3>Key Terminologies used :-</h3> 
 
 <b>1.	Month-to-Date</b> :- Performance or total up to the current date in the current Month . 
@@ -35,13 +39,12 @@ Formula :- MTD = Sum(Values from 1st of current month)
 Example :- if everyday income is 2$ per day . and today is 8th Novmebr then MTD will be 16$.
 
 <br>
-<br>
 
 <b>2.	Month-to-Month </b>:- Change or growth from last month to this month.
 Formula :- MTM = (Current Month Value – Previous Month Value ) / Previous Month Value * 100 % 
 Example:- If January Sales = 10k and Feb are 12k then MTM = (12-10k)/10k *100= 20%
 
-<br><br>
+<br>
 
 <b> 3.	Debt-to-Income </b>  :- Measures how much of your income goes toward paying debts.
 Formula :- DTI = Total Month Debts Payments / Gross Income  *  100%.
